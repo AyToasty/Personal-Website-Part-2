@@ -1,0 +1,149 @@
+body {
+  background-color: bisque;
+}
+
+main {
+  width: 50vw;
+  margin: 50px auto;
+  background-color: rgb(238, 185, 119);
+  padding-top: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+footer {
+  background-color: #333333;
+  text-align: center;
+  font-size: 30px;
+  height: 50px;
+  padding: 10px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+#homepage {
+  font-size: 25px;
+  min-height: 85vh;
+}
+
+.quote {
+  text-align: center;
+  font-style: italic;
+  font-size: 50px;
+  margin-top: 5em;
+}
+
+#title {
+  font-family: 'Courier New', Courier, monospace;
+  color: aliceblue;
+  margin: 0;
+  margin-left: 10px;
+  margin-right: 25px;
+  float: left;
+}
+
+#links {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+  margin:0;
+  padding: 10px;
+  margin-right: 25px;
+  padding-top: 15px;
+  float: right;
+}
+
+footer > a {
+  color: #39393a;
+  text-decoration: none;
+  float: inherit;
+}
+
+#links > a {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+header {
+  width: 100vw;
+  height: 70px;
+  background-color: #333333;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#homepage > img {
+  float: right;
+  margin: 10px 0 10px 10px;
+  padding-top: 25px;
+  padding-right: 20px;
+}
+
+#aboutpage {
+  min-height: 127vh;
+}
+#aboutsection {
+  font-size: 17px;
+}
+
+#aboutsection > h3 {
+  font-size: 25px;
+}
+
+#aboutpictureone {
+  float: right;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+#aboutpicturetwo {
+  float: left;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+#aboutpicturethree {
+  float: right;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+#portfoliosection {
+  min-height: 135vh;
+  font-size: 20px;
+}
+
+.project {
+  font-size: 20px;
+  background-color: rgb(180, 223, 238);
+  margin: 1em auto;
+  padding: 1em;
+}
+
+#projectpicone {
+  float: right;
+  padding-top: 5px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+#projectpictwo {
+  float: left;
+  padding-top: 5px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+#projectpicthree {
+  float: right;
+  padding-top: 5px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
