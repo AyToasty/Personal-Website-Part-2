@@ -1,5 +1,7 @@
 body {
-  background-color: bisque;
+  background: bisque;
+  background-image: url(https://images.unsplash.com/photo-1483232539664-d89822fb5d3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGhvdG8lMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&w=1000&q=80);
+  background-size: cover;
 }
 
 main {
@@ -26,7 +28,7 @@ footer {
 
 #homepage {
   font-size: 25px;
-  min-height: 85vh;
+  min-height: 85vmin;
 }
 
 .quote {
@@ -47,11 +49,10 @@ footer {
 
 #links {
   font-family: 'Courier New', Courier, monospace;
-  font-size: 30px;
-  margin:0;
-  padding: 10px;
-  margin-right: 25px;
-  padding-top: 15px;
+  font-size: 3vmin;
+  padding: 1vmin;
+  margin-right: 2vmin;
+  padding-top: 2vmin;
   float: right;
 }
 
@@ -83,8 +84,9 @@ header {
 }
 
 #aboutpage {
-  min-height: 127vh;
+  min-height: 127vmin;
 }
+
 #aboutsection {
   font-size: 17px;
 }
@@ -114,7 +116,7 @@ header {
 }
 
 #portfoliosection {
-  min-height: 135vh;
+  min-height: 135vmin;
   font-size: 20px;
 }
 
@@ -123,27 +125,55 @@ header {
   background-color: rgb(180, 223, 238);
   margin: 1em auto;
   padding: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 #projectpicone {
-  float: right;
   padding-top: 5px;
   padding-right: 20px;
-  padding-bottom: 20px;
   padding-left: 20px;
 }
 
 #projectpictwo {
-  float: left;
   padding-top: 5px;
   padding-right: 20px;
-  padding-bottom: 20px;
 }
 
 #projectpicthree {
-  float: right;
   padding-top: 5px;
   padding-right: 20px;
-  padding-bottom: 20px;
   padding-left: 20px;
+}
+
+#contactpage {
+  min-height: 85vmin;
+  font-size: 2em;
+}
+
+input {
+  width: 100%;
+}
+textarea {
+  width: 100%;
+  font-size: 15px;
+}
+
+#submittedpage {
+  min-height: 85vmin;
+  text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+  main {
+    width:auto;
+  }
+  .project {
+    width: auto;
+  }
+  .quote {
+    margin-top: 0;
+    padding-bottom: 2em;
+  }
 }
